@@ -1055,7 +1055,7 @@ input:-ms-input-placeholder {
       form input {
         width: 370px; }
     .slider-header .container {
-      min-height: 132px; }
+      min-height: 144px; }
     .slider-header .slick-dots {
       left: calc((50% - 576px/2) + 15px); }
       .testimonials .testimonials-slider-inner .text {
@@ -1066,6 +1066,8 @@ input:-ms-input-placeholder {
         width: calc(50% - 768px/2); }
       .title-line::after {
         left: calc((50% - 768px/2) - 15px); }
+    .slider-header .container {
+      min-height: 184px; }
     .slider-header .slick-dots {
       left: calc((50% - 768px/2) + 15px); }
       .map-sect #map {
@@ -1279,8 +1281,6 @@ input:-ms-input-placeholder {
       font-size: 40px; }
     h3 {
       font-size: 32px; }
-    .slider-header .container {
-      font-size: 187px; }
     .slider-header .container h2.smaller {
       font-size: 38px; } }
 
@@ -1289,8 +1289,6 @@ input:-ms-input-placeholder {
       font-size: 35px; }
     h3 {
       font-size: 30px; }
-    .slider-header .container {
-      font-size: 144px; }
     .slider-header .container h2.smaller {
       font-size: 32px; } }
 
@@ -1300,4 +1298,6 @@ input:-ms-input-placeholder {
     h3 {
       font-size: 28px; }
     .slider-header .container h2.smaller {
-      font-size: 28px; } }
+      font-size: 28px; }
+      .about-us .person br {
+        display: none; } }

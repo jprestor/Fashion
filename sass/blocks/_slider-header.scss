@@ -29,13 +29,10 @@
 		min-height: 132px;
 
 		@media (min-width: $sm) {
-			min-height: 132px;
+			min-height: 144px;
 		}
-		@media (max-width: $md) {
-			font-size: 144px;
-		}
-		@media (max-width: $lg) {
-			font-size: 187px;
+		@media (min-width: $md) {
+			min-height: 184px;
 		}
 
 		@media (min-width: $xl) {

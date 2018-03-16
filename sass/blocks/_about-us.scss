@@ -49,6 +49,12 @@
 
 	.person {
 		max-width: 370px;
+		
+		@media (max-width: $sm) {
+			br {
+				display: none;
+			}
+		}
 
 		p {
 			margin-bottom: 17px;

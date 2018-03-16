@@ -101,8 +101,9 @@
 					<img src="img/slider-header/slide1.jpg" width="100%" height="auto" class="main-img">
 
 					<div class="preview preview-1">
-						<span class="sh-next"></span>
-						<span class="sprite-arrow-next"></span>
+						<span class="sh-next">
+							<span class="sprite-arrow-next"></span>
+						</span>
 					</div>
 				</div>
 
@@ -115,8 +116,9 @@
 					<img src="img/slider-header/slide2.jpg" width="100%" height="auto" class="main-img">
 
 					<div class="preview preview-2">
-						<span class="sh-next"></span>
-						<span class="sprite-arrow-next"></span>
+						<span class="sh-next">
+							<span class="sprite-arrow-next"></span>
+						</span>
 					</div>
 				</div>
 
@@ -129,8 +131,9 @@
 					<img src="img/slider-header/slide3.jpg" width="100%" height="auto" class="main-img">
 
 					<div class="preview preview-3">
-						<span class="sh-next"></span>
-						<span class="sprite-arrow-next"></span>
+						<span class="sh-next">
+							<span class="sprite-arrow-next"></span>
+						</span>
 					</div>
 				</div>
 
@@ -141,8 +144,9 @@
 
 					<img src="img/slider-header/slide4.jpg" width="100%" height="auto" class="main-img">
 					<div class="preview preview-4">
-						<span class="sh-next"></span>
-						<span class="sprite-arrow-next"></span>
+						<span class="sh-next">
+							<span class="sprite-arrow-next"></span>
+						</span>
 					</div>
 				</div>
 			</div>
@@ -653,23 +657,15 @@
 	<div class="modal fade" id="popup-tricks">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
-				<div class="modal-header">
-					<h3 class="modal-title">Приемы игры</h3>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          	<span aria-hidden="true">&times;</span>
-        	</button>
-				</div>
-				<div class="modal-body">
-					<ul>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary" data-dismiss="modal">Закрыть</button>
-				</div>
+				<form>
+					<input type="text" id="form-phone" class="form-phone" name="Name" placeholder="Ваше имя" required>
+
+					<input type="text" id="form-phone" class="form-phone" name="Number" placeholder="Телефон" required>
+
+					<input type="text" id="form-phone" class="form-phone" name="Date" placeholder="Желаемая дата" required>
+
+					<button type="submit" class="form-submit btn btn-danger">Отправить</button>
+				</form>
 			</div>
 		</div>
 	</div>
