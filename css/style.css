@@ -785,7 +785,8 @@ input:-ms-input-placeholder {
   .about-us .about-us-slider {
     margin-bottom: 30px; }
     .about-us .about-us-slider .item {
-      position: relative; }
+      position: relative;
+      outline: none; }
     .about-us .about-us-slider img {
       max-width: 100%;
       height: auto;
