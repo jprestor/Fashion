@@ -1,0 +1,47 @@
+	form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		input {
+			margin-bottom: 40px;
+			width: 290px;
+			background-color: transparent;
+			border: none;
+			border-bottom: 1px solid $blk;
+			
+			@media (min-width: $sm) {
+				width: 370px;
+			}
+		}
+
+		.btn {
+			padding: 8px 21px;
+			background-color: $pink;
+			border-color: $pink;
+		}
+
+		@media (min-width: $xl) {
+			flex-direction: row;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			justify-content: space-between;
+		}
+	}
+
+	/*----Цвет плейсхолдера---*/
+	input::-webkit-input-placeholder {
+		color: $blk;
+	}
+	
+	input::-moz-placeholder {
+		color: $blk;
+	}
+	
+	input:-moz-placeholder {
+		color: $blk;
+	}
+	
+	input:-ms-input-placeholder {
+		color: $blk;
+	}

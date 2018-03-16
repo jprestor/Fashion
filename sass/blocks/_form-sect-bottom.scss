@@ -1,0 +1,25 @@
+.form-sect-bottom {
+	padding: 35px 0;
+	
+	.intro {
+		margin-bottom: 35px;
+		font-size: 18px;
+		font-family: 'peterburg', 'serif';
+		color: #000;
+		
+		@media (min-width: $lg) {
+			font-size: 26px;
+		}
+	}
+
+	h3 {
+		text-align: center;
+		margin-bottom: 30px;
+		white-space: nowrap;
+
+		@media (min-width: $xl) {
+			text-align: left;
+			margin-right: 90px;
+		}
+	}
+}

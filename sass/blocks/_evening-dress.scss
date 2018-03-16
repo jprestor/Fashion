@@ -1,0 +1,95 @@
+.evening-dress {
+	padding: 30px 0 40px;
+	background-color: #fff;
+
+	&::before {
+		top: 128px;
+	}
+
+	@media (min-width: $xl) {
+		padding: 94px 0 90px;
+
+		&::after {
+			content: 'Вечерние';
+			top: 45px;
+			font-size: 265px;
+			color: #ebeaed;
+		}
+	}
+
+	h2 {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	.caption {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 25px;
+
+		@media (min-width: $xl) {
+			margin-bottom: 52px;
+		}
+	}
+
+	.ed-gallery-slider {
+		z-index: 3;
+		position: relative;
+		margin-bottom: 60px;
+
+		.ed-gallery-slider-inner {
+			margin: 0 -15px;
+		}
+
+		.item {
+			position: relative;
+			display: block;
+			padding: 0 15px;
+			outline: none;
+
+			&:hover::before {
+				content: '';
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 90%;
+				height: 98%;
+				background-color: rgba(255, 255, 255, 0.4);
+			}
+
+			&:hover::after {
+				content: '';
+				position: absolute;
+				bottom: 20px;
+				right: 35px;
+				width: 43px;
+				height: 43px;
+				background: url(../img/plus.png) no-repeat;
+				background-size: cover;
+			}
+		}
+
+		img {
+			margin: 0 auto;
+			max-width: 100%;
+			height: auto;
+		}
+	}
+
+	.text {
+		p {
+			margin-bottom: 15px;
+		}
+	}
+
+	.link-more-ed {
+		display: block;
+		text-align: right;
+		margin-bottom: 25px;
+		color: $gray;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}

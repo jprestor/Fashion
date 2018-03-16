@@ -1,0 +1,191 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arrow-next {
+    width: 9px;
+    height: 17px;
+    background-position: -5px -5px;
+}
+
+.sprite-arrow-prev {
+    width: 9px;
+    height: 17px;
+    background-position: -24px -5px;
+}
+
+.sprite-feature-calendar {
+    width: 58px;
+    height: 58px;
+    background-position: -43px -5px;
+}
+
+.sprite-feature-dostavka {
+    width: 69px;
+    height: 69px;
+    background-position: -111px -5px;
+}
+
+.sprite-feature-dress {
+    width: 48px;
+    height: 69px;
+    background-position: -190px -5px;
+}
+
+.sprite-feature-ekskluz {
+    width: 52px;
+    height: 63px;
+    background-position: -5px -84px;
+}
+
+.sprite-feature-hran {
+    width: 63px;
+    height: 50px;
+    background-position: -67px -84px;
+}
+
+.sprite-feature-merka {
+    width: 68px;
+    height: 38px;
+    background-position: -140px -84px;
+}
+
+.sprite-feature-shov {
+    width: 52px;
+    height: 52px;
+    background-position: -218px -84px;
+}
+
+.sprite-feature-tkan {
+    width: 60px;
+    height: 64px;
+    background-position: -140px -132px;
+}
+
+.sprite-feature-trand {
+    width: 70px;
+    height: 73px;
+    background-position: -280px -5px;
+}
+
+.sprite-insta-nav {
+    width: 18px;
+    height: 18px;
+    background-position: -248px -5px;
+}
+
+.sprite-location {
+    width: 11px;
+    height: 15px;
+    background-position: -280px -88px;
+}
+
+.sprite-logo {
+    width: 83px;
+    height: 97px;
+    background-position: -210px -146px;
+}
+
+.sprite-map-fb {
+    width: 43px;
+    height: 43px;
+    background-position: -301px -88px;
+}
+
+.sprite-map-insta {
+    width: 44px;
+    height: 43px;
+    background-position: -303px -141px;
+}
+
+.sprite-map-location {
+    width: 11px;
+    height: 15px;
+    background-position: -5px -194px;
+}
+
+.sprite-map-mail {
+    width: 11px;
+    height: 9px;
+    background-position: -26px -194px;
+}
+
+.sprite-map-phone {
+    width: 11px;
+    height: 11px;
+    background-position: -47px -194px;
+}
+
+.sprite-map-skype {
+    width: 13px;
+    height: 13px;
+    background-position: -68px -194px;
+}
+
+.sprite-map-viber {
+    width: 16px;
+    height: 17px;
+    background-position: -91px -194px;
+}
+
+.sprite-map-vk {
+    width: 43px;
+    height: 43px;
+    background-position: -303px -194px;
+}
+
+.sprite-map-whatsapp {
+    width: 17px;
+    height: 17px;
+    background-position: -5px -247px;
+}
+
+.sprite-nav-fb {
+    width: 18px;
+    height: 18px;
+    background-position: -32px -247px;
+}
+
+.sprite-nav-logo {
+    width: 19px;
+    height: 23px;
+    background-position: -60px -247px;
+}
+
+.sprite-nav-mail {
+    width: 14px;
+    height: 12px;
+    background-position: -89px -247px;
+}
+
+.sprite-nav-phone {
+    width: 11px;
+    height: 11px;
+    background-position: -117px -194px;
+}
+
+.sprite-nav-viber {
+    width: 17px;
+    height: 18px;
+    background-position: -113px -247px;
+}
+
+.sprite-nav-vk {
+    width: 18px;
+    height: 18px;
+    background-position: -140px -247px;
+}
+
+.sprite-nav-whatsapp {
+    width: 18px;
+    height: 18px;
+    background-position: -168px -247px;
+}
+
+.sprite-quotes {
+    width: 67px;
+    height: 56px;
+    background-position: -196px -253px;
+}

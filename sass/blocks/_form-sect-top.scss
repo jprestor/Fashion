@@ -1,0 +1,18 @@
+.form-sect-top {
+	padding: 30px 0 45px;
+	
+	@media (min-width: $xl) {
+		padding: 50px 0 50px;
+	}
+
+	h3 {
+		text-align: center;
+		margin-bottom: 30px;
+		white-space: nowrap;
+
+		@media (min-width: $xl) {
+			text-align: left;
+			margin-right: 90px;
+		}
+	}
+}

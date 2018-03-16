@@ -1,0 +1,45 @@
+.easy-work {
+	padding: 75px 0 45px;
+	background: url(../img/bg-easy-work.jpg) no-repeat;
+	background-size: cover;
+
+	@media (min-width: $xl) {
+		padding: 40px 0;
+	}
+
+	&::before {
+		top: 60px;
+	}
+
+	h3 {
+		margin-bottom: 40px;
+	}
+
+	.item {
+		display: flex;
+		align-items: center;
+		margin-bottom: 8px;
+		
+		&:nth-child(even) {
+			padding-left: 64px;
+		}
+	}
+	
+	.form-link {
+		text-decoration: underline;
+	}
+
+	.num {
+		margin-right: 14px;
+		font-size: 65px;
+		font-family: 'peterburg', 'serif';
+		font-weight: bold;
+		color: $gray;
+	}
+
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	
+}

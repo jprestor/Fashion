@@ -1,0 +1,71 @@
+.why-choose {
+	padding: 35px 0;
+
+	@media (min-width: $xl) {
+		padding: 55px 0;
+	}
+
+	&::before {
+		top: 74px;
+	}
+
+	.content {
+		position: relative;
+
+		@media (min-width: $xl) {
+			&::before {
+				content: '';
+				position: absolute;
+				left: -70px;
+				bottom: -25px;
+				width: 258px;
+				height: 341px;
+				background: url(../img/why-choose-sub.jpg) no-repeat;
+				box-shadow: 0px 0px 28.13px 0.87px rgba(0, 0, 0, 0.28);
+			}
+		}
+	}
+
+	h3 {
+		margin-bottom: 30px;
+	}
+
+	.main-img {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		max-width: 100%;
+		height: auto;
+		align-self: flex-start;
+
+		@media (min-width: $xl) {
+			margin: 0;
+			margin-right: 30px;
+		}
+	}
+
+	.item {
+		padding-right: 10px;
+		padding-left: 10px;
+		margin-bottom: 40px;
+		font-size: 15px;
+
+		.frame {
+			margin-bottom: 14px;
+			background-color: $dgr;
+			width: 116px;
+			height: 116px;
+			box-shadow: inset 0 0 0 4px $dgr, inset 0 0 0 5px #fff;
+		}
+
+		@media (max-width: $xl) {
+			.frame {
+				margin: 0 auto;
+				margin-bottom: 14px;
+			}
+
+			p {
+				text-align: center;
+			}
+		}
+	}
+}

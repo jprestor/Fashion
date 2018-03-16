@@ -1,0 +1,94 @@
+.catalog {
+	padding: 35px 0 40px;
+
+	&::before {
+		top: 120px;
+	}
+
+	h2 {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 40px;
+		line-height: 0.7;
+
+		span {
+			font-size: 0.6em;
+		}
+	}
+
+	@media (min-width: $xl) {
+		padding: 105px 0 85px;
+
+		&::after {
+			content: 'Каталог';
+			top: 30px;
+			font-size: 308px;
+			color: $dgr;
+		}
+
+		.content {
+			z-index: 1;
+			position: relative;
+		}
+
+		.fullwidth-img {
+			margin-right: 30px;
+		}
+
+		.thumbnails {
+			.thumb {
+				position: relative;
+				margin-bottom: 49px;
+				cursor: pointer;
+
+				&:hover::before {
+					content: '';
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					height: 240px;
+					width: 154px;
+					background-color: rgba(255, 255, 255, 0.4);
+				}
+			}
+
+			img {
+				display: block;
+				margin: 0 auto;
+				width: 164px;
+				height: 250px;
+			}
+		}
+
+		.arrows-item {
+			display: none !important;
+		}
+	}
+
+	@media (max-width: $xl) {
+		.fullwidth-img {
+			display: none;
+		}
+
+		.content {//slider
+			position: relative;
+						
+			.sprite-arrow-prev {
+				left: 7px;
+			}
+			
+			.sprite-arrow-next {
+				right: 7px;
+			}
+		}
+
+		.thumbnails {//slider-inner
+			img {
+				margin: 0 auto;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+}

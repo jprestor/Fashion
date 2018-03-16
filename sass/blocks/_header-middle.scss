@@ -1,0 +1,65 @@
+.header-middle {
+	padding-top: 48px;
+
+	.container {
+		display: flex;
+		align-items: flex-end;
+
+		@media (max-width: $xl) {
+			flex-wrap: wrap;
+		}
+	}
+
+	.item {
+		margin-bottom: 25px;
+	}
+
+	.brand {
+		align-self: center;
+		display: flex;
+		align-items: center;
+		margin-right: 48px;
+		font-size: 22px;
+		font-family: 'Peterburg', serif;
+		white-space: nowrap;
+
+		.sprite-logo {
+			margin-right: 15px;
+		}
+	}
+
+	.slogan-block {
+		font-size: 18px;
+		line-height: 1.2;
+		font-family: 'Peterburg', serif;
+		src: url('../fonts/subset-Peterburg-BoldItalic.woff2');
+		font-style: italic;
+
+		@media (min-width: $xl) {
+			white-space: nowrap;
+		}
+
+		p {
+			margin-bottom: 14px;
+		}
+	}
+
+	.show-room {
+		padding-left: 18px;
+		font-size: 14px;
+		
+		span {
+			display: block;
+			color: $gray;
+		}
+		
+		p {
+			margin-bottom: 4px;
+		}
+		
+		.subscribe {
+			margin-bottom: 15px;
+			font-size: 12px;
+		}
+	}
+}

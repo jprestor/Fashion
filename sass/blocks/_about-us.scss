@@ -1,0 +1,105 @@
+.about-us {
+	padding: 32px 0;
+	background-color: $blk;
+	color: #fff;
+
+	&::before {
+		background-color: #fff;
+		top: 55px;
+	}
+
+	@media (min-width: $xl) {
+		padding: 72px 0;
+
+		&::before {
+			top: 105px;
+		}
+
+		&::after {
+			content: "О нас";
+			color: $lblck;
+		}
+	}
+
+	.container {
+		position: relative;
+	}
+
+	h2 {
+		z-index: 1;
+		margin-bottom: 20px;
+		position: relative;
+		color: #fff;
+
+		@media (min-width: $xl) {
+			margin-bottom: 148px;
+		}
+	}
+
+	.features {
+		margin-bottom: 30px;
+
+		@media (min-width: $xl) {
+			z-index: 1;
+			position: absolute;
+			top: 84px;
+			right: 0;
+		}
+	}
+
+	.person {
+		max-width: 370px;
+
+		p {
+			margin-bottom: 17px;
+		}
+
+		.link-more {
+			display: block;
+			text-align: right;
+			margin-bottom: 25px;
+			color: $gray;
+			text-decoration: underline;
+			cursor: pointer;
+		}
+
+		.btn {
+			border-left: none;
+			border-right: none;
+		}
+	}
+
+	.about-us-slider {
+		margin-bottom: 30px;
+		
+		@media (min-width: $xl) {
+			margin-bottom: 0;
+			
+			.about-us-slider-inner {
+				width: 771px !important;
+				background-color: $blk;
+			}
+		}
+
+		.item {
+			position: relative;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+			margin: 0 auto;
+		}
+
+		.slick-prev {
+			display: none !important;
+		}
+
+		.sprite-arrow-next {
+			top: auto;
+			right: 0;
+			bottom: 0;
+			transform: none;
+		}
+	}
+}

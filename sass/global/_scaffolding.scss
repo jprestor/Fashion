@@ -1,0 +1,164 @@
+html,
+body {
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+body {
+	max-width: 1920px;
+	color: $blk;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+		background-color: #fff; //	color: $darkblue;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1200px;
+	}
+}
+
+//-------Headings
+h1 {
+	font-size: 3rem; //48px
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: 'peterburg'; //35px
+	font-size: 60px;
+	font-weight: bold;
+
+	@media (max-width: $xl) {
+		font-size: 45px;
+	}
+
+	@media (max-width: $lg) {
+		font-size: 40px;
+	}
+
+	@media (max-width: $md) {
+		font-size: 35px;
+	}
+
+	@media (max-width: $sm) {
+		font-size: 30px;
+	}
+}
+
+h3 {
+	font-family: 'peterburg'; //35px
+	font-size: 36px;
+	font-weight: bold;
+
+	@media (max-width: $lg) {
+		font-size: 32px;
+	}
+
+	@media (max-width: $md) {
+		font-size: 30px;
+	}
+
+	@media (max-width: $sm) {
+		font-size: 28px;
+	}
+}
+
+h4 {
+	font-size: 1.375rem; //22px
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 1.111rem; //18px
+	text-transform: uppercase;
+}
+
+
+//-------Reset
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	color: inherit;
+	&:hover {
+		color: inherit;
+		text-decoration: none;
+	}
+}
+
+//----------Buttons
+.btn {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+//Декоративная линия
+.title-line {
+	position: relative;
+
+	&::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		height: 2px;
+		background-color: $blk;
+
+		@media (min-width: $sm) {
+			width: calc(50% - 576px/2);
+		}
+
+		@media (min-width: $md) {
+			width: calc(50% - 768px/2);
+		}
+
+		@media (min-width: $lg) {
+			width: calc(50% - 992px/2);
+		}
+
+		@media (min-width: $xl) {
+			width: calc(50% - 1200px/2);
+		}
+	}
+
+	&::after {
+		//Декоративный, фоновый заголовок
+		position: absolute;
+		top: 0;
+		left: 0;
+		line-height: 0.8;
+		font-size: 336px;
+		font-family: 'peterburg';
+		font-weight: bold;
+
+		@media (min-width: $sm) {
+			left: calc((50% - 576px/2) - 15px);
+		}
+
+		@media (min-width: $md) {
+			left: calc((50% - 768px/2) - 15px);
+		}
+
+		@media (min-width: $lg) {
+			left: calc((50% - 992px/2) - 15px);
+		}
+
+		@media (min-width: $xl) {
+			left: calc((50% - 1200px/2) - 15px);
+		}
+	}
+}

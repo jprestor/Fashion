@@ -1,0 +1,94 @@
+.testimonials {
+	padding: 30px 0 40px;
+	background-color: $dgr;
+
+	&::before {
+		top: 98px;
+	}
+
+	@media (min-width: $xl) {
+		padding: 80px 0 84px;
+
+		&::after {
+			content: 'Отзывы';
+			top: 0;
+			font-size: 310px;
+			color: #dcdbdf;
+		}
+	}
+
+	h2 {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 12px;
+	}
+
+	.caption {
+		z-index: 1;
+		position: relative;
+		margin-bottom: 32px;
+
+		@media (min-width: $xl) {
+			margin-bottom: 52px;
+		}
+	}
+
+	.testimonials-slider {
+		z-index: 3;
+		position: relative;
+
+		.sprite-arrow-prev {
+			left: 10px;
+		}
+
+		.sprite-arrow-next {
+			right: 10px;
+		}
+
+		@media (max-width: $xl) {
+			.sprite-arrow-prev,
+			.sprite-arrow-next {
+				top: 180px;
+			}
+		}
+	}
+
+	.testimonials-slider-inner {
+		.item {
+			padding: 10px;
+			outline: none;
+			display: flex;
+		}
+
+		img {
+			display: block;
+			margin-right: 30px;
+			box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+
+			@media (max-width: $xl) {
+				display: none;
+			}
+		}
+
+		.text {
+			padding: 100px 24px 25px;
+			background-color: #fff;
+			box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+
+			p {
+				margin-bottom: 20px;
+			}
+
+			@media (min-width: $sm) {
+				padding: 147px 45px 40px;
+			}
+		}
+
+		.name {
+			text-align: center;
+			font-size: 30px;
+			font-family: 'peterburg', 'serif';
+			font-style: italic;
+		}
+	}
+}

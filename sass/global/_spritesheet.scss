@@ -1,0 +1,460 @@
+.sprite-arrow-next {
+	z-index: 100;
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	transform: translate(50%, -50%);
+	width: 37px;
+	height: 37px;
+	background-color: #fff;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 51%;
+		left: 52%;
+		transform: translate(-50%, -50%);
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 10px;
+		height: 18px;
+		background-position: -5px -5px;
+	}
+}
+
+.sprite-arrow-prev {
+	z-index: 100;
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	transform: translate(-50%, -50%);
+	width: 37px;
+	height: 37px;
+	background-color: #fff;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.35);
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 51%;
+		left: 52%;
+		transform: translate(-50%, -50%);
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 10px;
+		height: 18px;
+		background-position: -24px -5px;
+	}
+}
+
+.sprite-feature-calendar {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 58px;
+		height: 58px;
+		background-position: -43px -5px;
+	}
+}
+
+.sprite-feature-dostavka {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 70px;
+		height: 70px;
+		background-position: -111px -5px;
+	}
+}
+
+.sprite-feature-dress {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 48px;
+		height: 70px;
+		background-position: -190px -5px;
+	}
+}
+
+.sprite-feature-ekskluz {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 52px;
+		height: 64px;
+		background-position: -5px -84px;
+	}
+}
+
+.sprite-feature-hran {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 64px;
+		height: 50px;
+		background-position: -67px -84px;
+	}
+}
+
+.sprite-feature-merka {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 68px;
+		height: 38px;
+		background-position: -140px -84px;
+	}
+}
+
+.sprite-feature-shov {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 52px;
+		height: 52px;
+		background-position: -218px -84px;
+	}
+}
+
+.sprite-feature-tkan {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 60px;
+		height: 64px;
+		background-position: -140px -132px;
+	}
+}
+
+.sprite-feature-trand {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		left: 50%;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 70px;
+		height: 74px;
+		background-position: -280px -5px;
+	}
+}
+
+.sprite-insta-nav {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 18px;
+		height: 18px;
+		background-position: -248px -5px;
+	}
+}
+
+.sprite-location {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 7px;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 11px;
+		height: 15px;
+		background-position: -280px -88px;
+	}
+}
+
+.sprite-logo {
+	background-image: url(../img/spritesheet.png);
+	background-position: no-repeat;
+	width: 83px;
+	height: 97px;
+	background-position: -210px -146px;
+}
+
+.sprite-map-fb {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 44px;
+		height: 44px;
+		background-position: -301px -88px;
+	}
+}
+
+.sprite-map-location {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 8px;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 11px;
+		height: 15px;
+		background-position: -5px -194px;
+	}
+}
+
+.sprite-map-mail {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 11px;
+		height: 9px;
+		background-position: -26px -194px;
+	}
+}
+
+.sprite-map-phone {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 11px;
+		height: 11px;
+		background-position: -47px -194px;
+	}
+}
+
+.sprite-map-skype {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 13px;
+		height: 13px;
+		background-position: -68px -194px;
+	}
+}
+
+.sprite-map-viber {
+	position: relative;
+	background-image: url(../img/spritesheet.png);
+	background-position: no-repeat;
+	width: 16px;
+	height: 17px;
+	background-position: -91px -194px;
+}
+
+.sprite-map-whatsapp {
+	position: relative;
+	background-image: url(../img/spritesheet.png);
+	background-position: no-repeat;
+	width: 17px;
+	height: 17px;
+	background-position: -5px -247px;
+}
+
+.sprite-map-vk {
+	position: relative;
+	background-image: url(../img/spritesheet.png);
+	background-position: no-repeat;
+	width: 43px;
+	height: 43px;
+	background-position: -303px -194px;
+}
+
+.sprite-map-insta {
+	position: relative;
+	background-image: url(../img/spritesheet.png);
+	background-position: no-repeat;
+	width: 44px;
+	height: 43px;
+	background-position: -303px -141px;
+}
+
+.sprite-nav-fb {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 18px;
+		height: 18px;
+		background-position: -32px -247px;
+	}
+}
+
+.sprite-nav-logo {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 19px;
+		height: 23px;
+		background-position: -60px -247px;
+	}
+}
+
+.sprite-nav-mail {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 14px;
+		height: 12px;
+		background-position: -89px -247px;
+	}
+}
+
+.sprite-nav-phone {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 11px;
+		height: 11px;
+		background-position: -117px -194px;
+	}
+}
+
+.sprite-nav-viber {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 17px;
+		height: 18px;
+		background-position: -113px -247px;
+	}
+}
+
+.sprite-nav-vk {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 18px;
+		height: 18px;
+		background-position: -140px -247px;
+	}
+}
+
+.sprite-nav-whatsapp {
+	position: relative;
+	&::before {
+		content: "";
+		display: block;
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 18px;
+		height: 18px;
+		background-position: -168px -247px;
+	}
+}
+
+.sprite-quotes {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		top: 20px;
+		left: 50%;
+		transform: translate(-50%);
+		background-image: url(../img/spritesheet.png);
+		background-position: no-repeat;
+		width: 67px;
+		height: 56px;
+		background-position: -196px -253px;
+
+		@media (min-width: $sm) {
+			top: 50px;
+		}
+	}
+}
