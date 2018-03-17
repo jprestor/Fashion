@@ -33,7 +33,7 @@ $(document).ready(function () {
 	$("form").submit(function () {
 		var th = $(this);
 		$.ajax({
-			type: "GET",
+			type: "POST",
 			url: "mail.php",
 			data: th.serialize()
 		}).done(function () {
@@ -45,16 +45,9 @@ $(document).ready(function () {
 		});
 		return false;
 	});
+	
 
-	/*--Hide social links in navbar --*/
-	var $toggle = $('.navbar-toggler');
-
-	if (window.innerWidth < 1200) {
-		$toggle.addClass('collapsed');
-	};
-
-
-	/*--"Читать далее"--*/
+	/*--"Читать далее"------*/
 	var $linkMore = $('.link-more'), //About us
 		$cutOff = $('.link-more ~ p');
 

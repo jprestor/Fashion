@@ -513,6 +513,15 @@ a {
   text-transform: uppercase;
   border-radius: 0; }
 
+.btn-danger:hover {
+  background-color: #fa9482;
+  border-color: #fa9482; }
+
+.btn-outline-dark {
+  border-color: #141414; }
+  .btn-outline-dark:hover {
+    background-color: #141414; }
+
 .title-line {
   position: relative; }
   .title-line::before {
@@ -612,14 +621,6 @@ input:-ms-input-placeholder {
   .top-line .show + .contacts {
     padding-top: 10px;
     padding-bottom: 15px; }
-  .top-line .collapsed ~ .contacts .message-form {
-    display: none; }
-  .top-line .collapsed ~ .contacts .fb {
-    display: none; }
-  .top-line .collapsed ~ .contacts .viber {
-    display: none; }
-  .top-line .collapsed ~ .contacts .vk {
-    border: none; }
 
 .header-middle {
   padding-top: 48px; }
@@ -1240,6 +1241,14 @@ input:-ms-input-placeholder {
 @media (max-width: 1200px) {
     h2 {
       font-size: 45px; }
+    .top-line .collapsed ~ .contacts .email {
+      display: none; }
+    .top-line .collapsed ~ .contacts .fb {
+      display: none; }
+    .top-line .collapsed ~ .contacts .viber {
+      display: none; }
+    .top-line .collapsed ~ .contacts .vk {
+      border: none; }
       .header-middle .container {
         flex-wrap: wrap; }
   .slider-header::before {

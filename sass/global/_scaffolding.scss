@@ -107,6 +107,20 @@ a {
 	border-radius: 0;
 }
 
+.btn-danger:hover {
+	background-color: #fa9482;
+	border-color: #fa9482;
+}
+
+.btn-outline-dark {
+	border-color: $blk;
+	
+	&:hover {
+		background-color: $blk;
+	}
+}
+
+
 //Декоративная линия
 .title-line {
 	position: relative;
