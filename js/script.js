@@ -45,7 +45,14 @@ $(document).ready(function () {
 		});
 		return false;
 	});
-	
+
+
+	/*--Всплывающее окно с предложением------*/
+	function explode() {
+		$('#popup-proposal').modal('toggle');
+	};
+	setTimeout(explode, 10000);
+
 
 	/*--"Читать далее"------*/
 	var $linkMore = $('.link-more'), //About us
@@ -149,15 +156,15 @@ $(document).ready(function () {
 		nextArrow: $('.tls-next'),
 		autoplay: true,
 		autoplaySpeed: 4000,
-//		responsive: [
-//			{
-//				breakpoint: 1199,
-//				settings: {
-//					arrows: false,
-//					dots: true,
-//				}
-//    },
-//  ]
+		//		responsive: [
+		//			{
+		//				breakpoint: 1199,
+		//				settings: {
+		//					arrows: false,
+		//					dots: true,
+		//				}
+		//    },
+		//  ]
 	});
 
 	var $edGallerySlider = $('.ed-gallery-slider-inner');

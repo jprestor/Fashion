@@ -49,13 +49,13 @@
 					</div>
 
 					<div class="contacts">
-						<a href="tel:+79500380338" class="phone sprite-nav-phone">+7 950 038 03 38</a>
-						<a href="" class="viber sprite-nav-viber"></a>
-						<a href="" class="whatsapp sprite-nav-whatsapp"></a>
-						<a href="" class="vk sprite-nav-vk"></a>
-						<a href="" class="instagram sprite-insta-nav"></a>
-						<a href="" class="fb sprite-nav-fb"></a>
-						<a href="" class="email sprite-nav-mail"></a>
+						<a href="tel:+79500380338" class="phone sprite-nav-phone" target="_blank">+7 950 038 03 38</a>
+						<a href="" class="viber sprite-nav-viber" target="_blank"></a>
+						<a href="" class="whatsapp sprite-nav-whatsapp" target="_blank"></a>
+						<a href="" class="vk sprite-nav-vk" target="_blank"></a>
+						<a href="" class="instagram sprite-insta-nav" target="_blank"></a>
+						<a href="" class="fb sprite-nav-fb" target="_blank"></a>
+						<a href="" class="email sprite-nav-mail" target="_blank"></a>
 					</div>
 				</nav>
 
@@ -325,11 +325,11 @@
 						<input type="hidden" name="form_subject" value="Заявка на встречу со стилистом">
 						<!--form_subject-->
 
-						<input type="text" id="form-phone" class="form-phone" name="Name" placeholder="Ваше имя" required>
+						<input type="text" name="Name" placeholder="Ваше имя" required>
 
-						<input type="text" id="form-phone" class="form-phone" name="Number" placeholder="Телефон" required>
+						<input type="text" name="Number" placeholder="Телефон" required>
 
-						<input type="text" id="form-phone" class="form-phone" name="Date" placeholder="Желаемая дата" required>
+						<input type="text" name="Date" placeholder="Желаемая дата" required>
 
 						<button type="submit" class="form-submit btn btn-danger">Отправить</button>
 					</form>
@@ -603,11 +603,11 @@
 						<input type="hidden" name="form_subject" value="Заявка на встречу со стилистом">
 						<!--form_subject-->
 
-						<input type="text" id="form-phone" class="form-phone" name="Name" placeholder="Ваше имя" required>
+						<input type="text" name="Name" placeholder="Ваше имя" required>
 
-						<input type="text" id="form-phone" class="form-phone" name="Number" placeholder="Телефон" required>
+						<input type="text" name="Number" placeholder="Телефон" required>
 
-						<input type="text" id="form-phone" class="form-phone" name="Date" placeholder="Желаемая дата" required>
+						<input type="text" name="Date" placeholder="Желаемая дата" required>
 
 						<button type="submit" class="form-submit btn btn-danger">Отправить</button>
 					</form>
@@ -627,17 +627,17 @@
 
 					<div class="d-flex">
 						<a class="phone sprite-map-phone" href="tel:+79500380338">+7 950 038 03 38</a>
-						<a href="" class="viber sprite-map-viber"></a>
-						<a href="" class="whatsapp sprite-map-whatsapp"></a>
+						<a href="" class="viber sprite-map-viber" target="_blank"></a>
+						<a href="" class="whatsapp sprite-map-whatsapp" target="_blank"></a>
 					</div>
 
-					<a href="" class="skype sprite-map-skype">Skype</a>
-					<a href="" class="email sprite-map-mail">info@rumyan.ru</a>
+					<a href="" class="skype sprite-map-skype" target="_blank">Skype</a>
+					<a href="" class="email sprite-map-mail" target="_blank">info@rumyan.ru</a>
 
 					<div class="icons d-flex">
-						<a href="" class="vk sprite-map-vk"></a>
-						<a href="" class="instagram sprite-map-insta"></a>
-						<a href="" class="fb sprite-map-fb"></a>
+						<a href="" class="vk sprite-map-vk" target="_blank"></a>
+						<a href="" class="instagram sprite-map-insta" target="_blank"></a>
+						<a href="" class="fb sprite-map-fb" target="_blank"></a>
 					</div>
 				</div>
 				<!--map-contacts-->
@@ -662,17 +662,22 @@
 	<div class="modal fade" id="popup-stylist">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content p-3">
-				<h3 class="text-center mb-3">Заказать встречу со стилистом</h3>
+				<div class="header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+					<h3 class="text-center mb-4">Заказать встречу со стилистом</h3>
+				</div>
 
 				<form class="d-flex flex-column align-items-center">
 					<input type="hidden" name="form_subject" value="Заявка на встречу со стилистом">
 					<!--form_subject-->
 
-					<input type="text" id="form-phone" class="form-phone" name="Name" placeholder="Ваше имя" required>
+					<input type="text" name="Name" placeholder="Ваше имя" required>
 
-					<input type="text" id="form-phone" class="form-phone" name="Number" placeholder="Телефон" required>
+					<input type="text" name="Number" placeholder="Телефон" required>
 
-					<input type="text" id="form-phone" class="form-phone" name="Date" placeholder="Желаемая дата" required>
+					<input type="text" name="Date" placeholder="Желаемая дата" required>
 
 					<button type="submit" class="form-submit btn btn-danger">Отправить</button>
 				</form>
@@ -684,19 +689,45 @@
 	<div class="modal fade" id="popup-manager">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content p-3">
-				<h3 class="text-center mb-3">Заказать звонок менеджера</h3>
+				<div class="header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+					<h3 class="text-center mb-4">Заказать звонок менеджера</h3>
+				</div>
 
 				<form class="d-flex flex-column align-items-center">
 					<input type="hidden" name="form_subject" value="Заявка на звонок менеджера">
 					<!--form_subject-->
 
-					<input type="text" id="form-phone" class="form-phone" name="Name" placeholder="Ваше имя" required>
+					<input type="text" name="Name" placeholder="Ваше имя" required>
 
-					<input type="text" id="form-phone" class="form-phone" name="Number" placeholder="Телефон" required>
-
-					<input type="text" id="form-phone" class="form-phone" name="Date" placeholder="Желаемая дата" required>
+					<input type="text" name="Number" placeholder="Телефон" required>
 
 					<button type="submit" class="form-submit btn btn-danger">Отправить</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="modal fade" id="popup-proposal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          	<span aria-hidden="true">&times;</span>
+        	</button>
+					<h3 class="text-center">Персональное предложение для Вас</h3>
+				</div>
+
+				<form class="d-flex flex-column align-items-center">
+					<input type="hidden" name="form_subject" value="Заявка на персональное предложение">
+					<!--form_subject-->
+
+					<input type="text" name="Name" placeholder="Ваше e-mail" required>
+
+					<button type="submit" class="form-submit btn btn-danger">Получить предложение</button>
 				</form>
 			</div>
 		</div>
@@ -704,7 +735,7 @@
 	<!------------------------>
 
 
-	
+
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 

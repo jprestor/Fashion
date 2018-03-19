@@ -9,7 +9,7 @@
 			background-color: transparent;
 			border: none;
 			border-bottom: 1px solid $blk;
-			
+
 			@media (min-width: $sm) {
 				width: 370px;
 			}
@@ -29,19 +29,73 @@
 		}
 	}
 
+	/*--Всплывающее окно с предложением------*/
+
+	#popup-proposal {
+		.modal-content {
+			position: relative;
+			padding: 25px;
+			background: url(../img/bg-modal.jpg) no-repeat;
+			background-size: cover;
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 7px;
+				left: 7px;
+				height: 50%;
+				width: 50%;
+				border: 1px solid $blk;
+				border-bottom: none;
+				border-right: none
+			}
+
+			&::after {
+				content: '';
+				position: absolute;
+				bottom: 7px;
+				right: 7px;
+				height: 50%;
+				width: 50%;
+				border: 1px solid $blk;
+				border-top: none;
+				border-left: none;
+			}
+
+			h3 {
+				margin-bottom: 30px;
+			}
+
+			button.close {
+				position: absolute;
+				top: 7px;
+				right: 7px;
+			}
+
+			@media (min-width: $sm) {
+				padding: 50px 25px 70px;
+
+				h3 {
+					margin-bottom: 55px;
+				}
+			}
+		}
+	}
+
 	/*----Цвет плейсхолдера---*/
+
 	input::-webkit-input-placeholder {
 		color: $blk;
 	}
-	
+
 	input::-moz-placeholder {
 		color: $blk;
 	}
-	
+
 	input:-moz-placeholder {
 		color: $blk;
 	}
-	
+
 	input:-ms-input-placeholder {
 		color: $blk;
 	}

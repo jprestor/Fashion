@@ -554,6 +554,39 @@ form {
     background-color: #e1aea5;
     border-color: #e1aea5; }
 
+/*--Всплывающее окно с предложением------*/
+#popup-proposal .modal-content {
+  position: relative;
+  padding: 25px;
+  background: url(../img/bg-modal.jpg) no-repeat;
+  background-size: cover; }
+  #popup-proposal .modal-content::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 50%;
+    width: 50%;
+    border: 1px solid #141414;
+    border-bottom: none;
+    border-right: none; }
+  #popup-proposal .modal-content::after {
+    content: '';
+    position: absolute;
+    bottom: 7px;
+    right: 7px;
+    height: 50%;
+    width: 50%;
+    border: 1px solid #141414;
+    border-top: none;
+    border-left: none; }
+  #popup-proposal .modal-content h3 {
+    margin-bottom: 30px; }
+  #popup-proposal .modal-content button.close {
+    position: absolute;
+    top: 7px;
+    right: 7px; }
+
 /*----Цвет плейсхолдера---*/
 input::-webkit-input-placeholder {
   color: #141414; }
@@ -1056,6 +1089,10 @@ input:-ms-input-placeholder {
         left: calc((50% - 576px/2) - 15px); }
       form input {
         width: 370px; }
+    #popup-proposal .modal-content {
+      padding: 50px 25px 70px; }
+      #popup-proposal .modal-content h3 {
+        margin-bottom: 55px; }
     .slider-header .container {
       min-height: 144px; }
     .slider-header .slick-dots {
