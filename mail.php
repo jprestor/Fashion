@@ -7,8 +7,10 @@ $c = true;
 if ( $method === 'POST' ) {
 
 	$project_name = 'Fashion';
-	$project_mail = 'matrena.shop@mail.ru';
-	$admin_mail  =  'matrena.shop@mail.ru';
+//	$project_mail = 'matrena.shop@mail.ru';
+//	$admin_mail  =  'matrena.shop@mail.ru';
+	$project_mail = 'mail.nichost.ru';
+	$admin_mail  =  'd.mir.posts@gmail.com';
 	$form_subject = trim($_POST["form_subject"]);
 
 	foreach ( $_POST as $key => $value ) {
@@ -24,8 +26,8 @@ if ( $method === 'POST' ) {
 } else if ( $method === 'GET' ) {
 
 	$project_name = 'Fashion';
-	$project_mail = 'matrena.shop@mail.ru';
-	$admin_mail  =  'matrena.shop@mail.ru';
+	$project_mail = 'mail.nichost.ru';
+	$admin_mail  =  'd.mir.posts@gmail.com';
 	$form_subject = trim($_GET["form_subject"]);
 
 	foreach ( $_GET as $key => $value ) {

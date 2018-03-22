@@ -27,24 +27,22 @@ $(document).ready(function () {
 			.add(myPlacemark)
 	});
 	/*--------------------*/
-
-
-	//E-mail Ajax Send
-	$("form").submit(function () {
-		var th = $(this);
-		$.ajax({
-			type: "POST",
-			url: "mail.php",
-			data: th.serialize()
-		}).done(function () {
-			alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
-			setTimeout(function () {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
+	
+//	$("form").submit(function (e) {
+//    e.preventDefault();
+//    var th = $(this);
+//    $.ajax({
+//        url: "https://formspree.io/matrena.shop@mail.ru",
+//        method: "POST",
+//        data: th.serialize(),
+//        dataType: "json",
+//    }).done(function(){
+//       alert("Спасибо за заявку! Скоро мы с вами свяжемся.");
+//       setTimeout(function () {
+//         th.trigger("reset");
+//       }, 1000);
+//    });
+//});
 
 
 	/*--Всплывающее окно с предложением------*/
