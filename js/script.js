@@ -109,7 +109,7 @@ $(document).ready(function () {
 
 	var $catalogSlider = $('.thumbnails'),
 		//    w = $(window).width(), 
-		/*Получаем ширину окна, не учитывает?? ширину responsive окна в devtools*/
+		/*Получаем ширину окна. Не учитывает?? ширину responsive окна в devtools*/
 		slickExist = false,
 
 		catalogSliderInit = function () {
